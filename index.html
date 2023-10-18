@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="containerDiv">
+      <div class="mainDiv">
+        <!-- Display Section -->
+        <div class="displayDiv">
+          <input type="text" name="inputVal" id="inputVal" />
+        </div>
+        <!-- Key's Section -->
+        <div class="keysContainer">
+          <div class="rowDivs">
+            <div class="cell">
+              <input
+                type="text"
+                name="plus"
+                readonly
+                value="+"
+                class="operators"
+              />
+            </div>
+            <div class="cell">
+              <input
+                type="text"
+                name="minus"
+                readonly
+                value="-"
+                class="operators"
+              />
+            </div>
+            <div class="cell">
+              <input
+                type="text"
+                name="percentage"
+                readonly
+                value="%"
+                class="operators"
+              />
+            </div>
+            <div class="cell">
+              <input
+                type="text"
+                name="clearOne"
+                id="clearOne"
+                readonly
+                value="C"
+                class="operators"
+              />
+            </div>
+          </div>
+          <div class="rowDivs">
+            <div class="cell">
+              <input
+                type="text"
+                name="seven"
+                readonly
+                value="7"
+                class="numbers"
+              />
+            </div>
+            <div class="cell">
+              <input
+                type="text"
+                name="eight"
+                readonly
+                value="8"
+                class="numbers"
+              />
+            </div>
+            <div class="cell">
+              <input
+                type="text"
+                name="nine"
+                readonly
+                value="9"
+                class="numbers"
+              />
+            </div>
+            <div class="cell">
+              <input
+                type="text"
+                name="divide"
+                readonly
+                value="/"
+                class="operators"
+              />
+            </div>
+          </div>
+          <div class="rowDivs">
+            <div class="cell">
+              <input
+                type="text"
+                name="four"
+                readonly
+                value="4"
+                class="numbers"
+              />
+            </div>
+            <div class="cell">
+              <input
+                type="text"
+                name="five"
+                readonly
+                value="5"
+                class="numbers"
+              />
+            </div>
+            <div class="cell">
+              <input
+                type="text"
+                name="six"
+                readonly
+                value="6"
+                class="numbers"
+              />
+            </div>
+            <div class="cell">
+              <input
+                type="text"
+                name="multiply"
+                readonly
+                value="*"
+                class="operators"
+              />
+            </div>
+          </div>
+          <div class="rowDivs">
+            <div class="cell">
+              <input
+                type="text"
+                name="one"
+                readonly
+                value="1"
+                class="numbers"
+              />
+            </div>
+            <div class="cell">
+              <input
+                type="text"
+                name="two"
+                readonly
+                value="2"
+                class="numbers"
+              />
+            </div>
+            <div class="cell">
+              <input
+                type="text"
+                name="three"
+                readonly
+                value="3"
+                class="numbers"
+              />
+            </div>
+            <div class="cell">
+              <input
+                type="text"
+                name="decimal"
+                readonly
+                value="."
+                class="operators"
+              />
+            </div>
+          </div>
+          <div class="rowDivs lastRow">
+            <div class="cell">
+              <input
+                type="text"
+                name="allClear"
+                readonly
+                value="AC"
+                class="operators"
+              />
+            </div>
+            <div class="cell">
+              <input
+                type="text"
+                name="zero"
+                class="numbers"
+                readonly
+                value="0"
+              />
+            </div>
+            <div class="cell actions">
+              <input
+                type="text"
+                name="calculate"
+                readonly
+                value="="
+                class="calculateBtn"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- *********** -->
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
